@@ -9,9 +9,16 @@
     },
     "authors": [
         {
-            "name": "Nima",
+            "name": "Nima Eidipour",
             "email": "nimadeve@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "src\\FerzPackageServiceProvider"
+            ]
+        }
+    }
 }
