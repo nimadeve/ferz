@@ -2,6 +2,8 @@
     "name": "nimadeve/ferz",
     "description": "delivering modularity, performance & extras.",
     "type": "library",
+    "keywords": ["tools", "quick","fast","ferz"],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Nimadeve\\Ferz\\": "src/"
