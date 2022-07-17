@@ -1,0 +1,17 @@
+{
+    "name": "nimadeve/ferz",
+    "description": "delivering modularity, performance & extras.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Nimadeve\\Ferz\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nima",
+            "email": "nimadeve@gmail.com"
+        }
+    ],
+    "require": {}
+}
