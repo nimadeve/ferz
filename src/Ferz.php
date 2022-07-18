@@ -14,4 +14,20 @@ class Ferz{
         unset($array[$condition]);
         return $array;
     }
+
+
+    public function arraySelect($array , $select = [])
+    {
+        # [name,family,cars.model]
+        return [];
+    }
+
+    public function arrayAddParams($array , $where , $value)
+    {
+        /*
+           where ->    items.products.options.model  (model not exist)
+           value ->   value
+        */
+        return [];
+    }
 }
