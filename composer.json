@@ -6,7 +6,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Nimadeve\\Ferz\\": "nimadeve/ferz/src/"
+            "nimadeve\\ferz\\": "nimadeve/ferz/src/"
         }
     },
     "authors": [
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nimadeve\\Ferz\\FerzPackageServiceProvider"
+                "nimadeve\\ferz\\src\\FerzPackageServiceProvider"
             ]
         }
     }
