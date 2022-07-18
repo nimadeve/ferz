@@ -5,8 +5,13 @@ namespace nimadeve\ferz;
 
 class Ferz{
 
-    public function test()
+    public function arrayRemove($array , $condition)
     {
-        return "Hello World";
+        // name == nima
+        // items.*.name == nima
+        // items.*.options.*.name = nima 
+
+        unset($array[$condition]);
+        return $array;
     }
 }
