@@ -13,6 +13,8 @@ class FerzPackageServiceProvider extends ServiceProvider
 
     public function register()
     {
-        # code...
+        $this->app->bind("Ferz",function(){
+            return new nimadeve\ferz\Ferz();
+        });
     }
 }
