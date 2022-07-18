@@ -20,7 +20,10 @@
         "laravel": {
             "providers": [
                 "nimadeve\\ferz\\FerzPackageServiceProvider"
-            ]
+            ],
+            "aliases" : {
+                "Ferz" : "nimadeve\\ferz\\FerzFacade"
+            }
         }
     }
 }
