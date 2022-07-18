@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "nimadeve\\ferz\\src\\FerzPackageServiceProvider"
+                "nimadeve\\ferz\\FerzPackageServiceProvider"
             ]
         }
     }

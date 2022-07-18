@@ -1,6 +1,6 @@
 <?php
 
-namespace src;
+namespace nimadeve\ferz;
 
 use Illuminate\Support\ServiceProvider;
 
